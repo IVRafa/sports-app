@@ -8,11 +8,12 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1iey2Sjk_JEIi3puCjkOrQw8UciLmDAng'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1NOJfW8MH1T96IjgusWEyc3mfeUp3d8j1'
 export_file_name = 'export.pkl'
-classes = ['maruti-baleno','maruti-swift','maruti-wagonr', 'maruti-vitara-breeza', 'hyundai-creta', 'mahindra-scorpio'
-          , 'hyundai-elite-i20', 'maruti-dzire', 'renault-kwid', 'toyota-fortuner', 'toyota-innova', 'maruti-ertiga'
-          , 'mahindra-bolero', 'hyundai-grand-i10', 'honda-amaze', 'hyundai-verna', 'honda-city']
+classes = ['american_football', 'baseball', 'basketball', 'boxing', 'cricket', 'curling', 'cycling',
+ 'diving', 'field_hockey', 'floorball', 'football', 'formula_one', 'golf', 'ice_hockey', 'judo', 'kabaddi',
+  'lacrosse', 'mma', 'motogp', 'nascar', 'rally', 'rugby', 'snooker', 'sport_climbing', 'squash', 'sumo', 'swimming',
+   'track_and_field', 'volleyball', 'wrestling']
 #classes = ['black', 'grizzly', 'teddys']
 path = Path(__file__).parent
 
